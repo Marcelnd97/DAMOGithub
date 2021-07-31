@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "Le langage PHP",
+      "body": "PHP est un langage de script utilisé le plus souvent côté serveur : dans cette architecture, le serveur interprète le code PHP des pages web demandées et génère du code (HTML, XHTML, CSS par exemple) et des données (JPEG, GIF, PNG par exemple) pouvant être interprétés et rendus par un navigateur web. PHP peut également générer d'autres formats comme le WML, le SVG et le PDF. Il a été conçu pour permettre la création d'applications dynamiques, le plus souvent développées pour le Web.",
+      "author": "Maimouna",
+      "id": 2
+    },
+    {
+      "title": "Le langage JavaScript",
+      "body": "JavaScript est un langage de programmation qui permet d’implémenter des mécanismes complexes sur une page web. À chaque fois qu’une page web fait plus que simplement afficher du contenu statique — afficher du contenu mis à jour à des temps déterminés, des cartes interactives, des animations 2D/3D, des menus vidéo défilants, etc...",
+      "author": "Shérif",
+      "id": 3
+    },
+    {
+      "title": "Le framework React",
+      "body": "React (également connu sous le nom de React.js ou ReactJS) est une bibliothèque JavaScript frontale gratuite et open-source pour la construction d’interfaces utilisateur ou de composants d’interface utilisateur. Il est maintenu par Facebook et une communauté de développeurs individuels et d’entreprises. React peut être utilisé comme base dans le développement d’applications mono-pages ou mobiles. Cependant, React ne concerne que la gestion de l’état et le rendu de cet état dans le DOM, donc la création d’applications React nécessite généralement l’utilisation de bibliothèques supplémentaires pour le routage, ...",
+      "author": "Marcel",
+      "id": 4
+    }
+  ]
+}
