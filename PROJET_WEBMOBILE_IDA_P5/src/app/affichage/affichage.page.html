@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="insertion"></ion-back-button>
+      </ion-buttons>
+    <ion-title>affichage</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="./assets/icon/uvs.PNG"/>
+  <div>
+    <p>AFFICHAGE DES ETUDIANTS</p>
+  </div>
+  <br/>
+  <br/>
+<table>
+  <thead>
+  <tr>
+    <th>Nom</th>
+    <th>Prénom</th>
+    <th>Filiére</th>
+    <th>Identifiant</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td ng-repeat="p in etudiant.listEtudiant">Diop</td>
+    <td ng-repeat="p in etudiant.listEtudiant">Abdoulaye</td>
+    <td ng-repeat="p in etudiant.listEtudiant">Anglais</td>
+    <td ng-repeat="p in etudiant.listEtudiant">ad2020</td>
+  </tr>
+  <tr>
+    <td ng-repeat="p in etudiant.listEtudiant">Séne</td>
+    <td ng-repeat="p in etudiant.listEtudiant">Awa</td>
+    <td ng-repeat="p in etudiant.listEtudiant">ida</td>
+    <td ng-repeat="p in etudiant.listEtudiant">as2019</td>
+  </tr>
+  <tr>
+    <td ng-repeat="p in etudiant.listEtudiant">Seck</td>
+    <td ng-repeat="p in etudiant.listEtudiant">Iba</td>
+    <td ng-repeat="p in etudiant.listEtudiant">sociologie</td>
+    <td ng-repeat="p in etudiant.listEtudiant">is2021</td>
+  </tr>
+  <tr>
+    <td ng-repeat="p in etudiant.listEtudiant">Sarr</td>
+    <td ng-repeat="p in etudiant.listEtudiant">Abdou</td>
+    <td ng-repeat="p in etudiant.listEtudiant">sjp</td>
+    <td ng-repeat="p in etudiant.listEtudiant">as2020</td>
+    <!--<td ng-repeat="p in etudiant.listEtudiant">{{p.nom}}</td>
+    <td ng-repeat="p in etudiant.listEtudiant">{{p.prenom}}</td>
+    <td ng-repeat="p in etudiant.listEtudiant">{{p.filiere}}</td>
+    <td ng-repeat="p in etudiant.listEtudiant">{{p.identifiant}}</td>-->
+  </tr>
+</tbody>
+</table>
+</ion-content>

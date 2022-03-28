@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home" ></ion-back-button>
+      </ion-buttons>
+    <ion-title>update</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="./assets/icon/uvs.PNG"/>
+  <div>
+    <p>MISE A JOUR ET SUPPRESSION</p>
+  </div>
+  <ion-item>
+    <ion-label>Nom: </ion-label>
+    <ion-input type="text" placeholder="votre nom" ></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Prénom: </ion-label>
+    <ion-input type="text" placeholder="votre prénom"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Filière: </ion-label>
+    <ion-input type="text" placeholder="votre filière"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Identifiant: </ion-label>
+    <ion-input type="text" placeholder="Votre identifiant"></ion-input>
+  </ion-item>
+
+  <ion-button href="/affichage" expand="block"  color="primary">Modifier</ion-button>
+  <ion-button href="/affichage" expand="block"  color="danger">Supprimer</ion-button>
+</ion-content>
